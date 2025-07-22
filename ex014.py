@@ -1,3 +1,8 @@
-temperatura = float(input('Informe a temperatura em ºC: '))
-f = (temperatura * 9/5) + 32
-print(f'A temperatura em de {temperatura}ºC corresponde a {f}ºF!')
+# Escreva um programa que converte uma temperatura digitada em ºC e converta para ºF.
+
+tempraturaC = float(input("Digite a temperaturam em ºC: "))
+temperaturaF = (tempraturaC * 1.8) + 32
+msg = f"A temperatura em Fahrenheit é de ºF {temperaturaF}."
+linha = "_" * (len(msg) + 4)
+print(f"{linha}\n{msg}")
+

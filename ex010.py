@@ -1,4 +1,6 @@
-cotacao = float(input('Quanto está o dolá: US$ '))
-dineiro = float(input('Quanto dinheiro você tem? R$ '))
-dola = dineiro * cotacao
-print(f'Com {dineiro:.2f} você pode comprar US$ {dola:.2f}')
+# Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos Dólares ela pode comprar.
+msg = "Vamos converte de Reais para Dolar"
+print(msg)
+reais = float(input("Qual o valor em Reais: R$ "))
+dolar = 5.5 * reais
+print(f"O valor de R$ {reais:.2f} é de US$ {dolar:.2f}.")

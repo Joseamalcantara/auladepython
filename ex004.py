@@ -1,9 +1,11 @@
-algo = input('Digite algo: ')
-print(f'O tipo primitivo de {algo} é: ', type(algo))
-print('Só tem espaço?', algo.isspace())
-print('É um número? ', algo.isnumeric())
-print('É alfabético? ', algo.isalpha())
-print('É alfanumérico? ', algo.isalnum())
-print('Está em maiúculas? ', algo.isupper())
-print('Está em minúsculas? ', algo.islower())
-print('Está capitalzada? ', algo.istitle())
+# Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.
+print("Vamos ver o tipo de informação e o que e suas composições baseadas no que você digitou.")
+valor = input("Digite algo: ")
+print(f"Você digitou um tipo ", type(valor))
+msgObs = "Obs.: Mesmo você digitando número, sempre vai ser 'str', pois não declarei na variável"
+print(f"{msgObs}\n{"-" * (len(msgObs) + 4)}")
+
+print(f"Só tem número: {valor.isnumeric()}")
+print(f"É espaço vazio: {valor.isspace()}")
+print(f"É um número décimal: {valor.isdecimal()}")
+

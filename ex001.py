@@ -1,4 +1,6 @@
-msg = 'Olá, Mundo!'
-print('-- Exercício 001 --')
-print('-'*20)
-print(msg)
+# Crie um programa que escreva "Olá, Mundo!" na tela.
+
+msg = "Olá, Mundo!"
+linha = f"+{"-" * (len(msg) + 10)}+"
+
+print(f"{linha}\n|{msg.center(len(msg) + 10)}|\n{linha}")
