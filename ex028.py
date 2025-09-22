@@ -1,8 +1,14 @@
-from random import randint
+# Escreva um programa que faç o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foio número escolhido pelo computador.
+# O programa deverá escrever na tela se o usuário venceu ou perdeu.
 
-print('-=' * 40)
-print('Vou pensar um um número entre 0 e 5. Tente adivinhar...')
-print('-=' * 40)
+from random import randint
+from time import sleep
+
+linha = '-=' * 40
+msg_pensar = 'Vou pensar um um número entre 0 e 5. Tente adivinhar...'
+
+print(f"{linha}\n{msg_pensar}")
+sleep(3)
 num = int(input('Em que número eu pensei? '))
 numero_aleatorio = randint(1, 5)
 

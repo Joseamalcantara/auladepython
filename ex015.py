@@ -2,7 +2,9 @@
 
 kmPercorrido = float(input("Quantos Km foram percorridos: "))
 dias = float(input("Quantos dias esteve com o carro: "))
+
 preco = (60 * dias) + (0.15 * kmPercorrido)
+
 msg = f"O valor a ser pago é R$ {preco:.2f}."
 linha = "_" * (len(msg) + 4)
 print(f"{linha}\n{msg}")

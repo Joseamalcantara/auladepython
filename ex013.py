@@ -3,5 +3,6 @@
 salario = float(input("Qual é o seu salário? R$ "))
 novoSalario = salario - (salario * 0.15)
 msg = f"Seu novo salário será de R$ {novoSalario:.2f}"
+
 linha = "_" * (len(msg) + 4)
 print(f"{linha}\n{msg.center(len(linha))}")

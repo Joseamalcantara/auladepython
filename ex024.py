@@ -1,4 +1,4 @@
 # Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome: Custódia
-cid = str(input('Em que cidade você nasceu? ')).strip()
-print(cid[:9].upper() == 'CUSTODIA')
 
+cid = str(input('Em que cidade você nasceu? ')).strip()
+print(cid[:9].upper() == 'CUSTÓDIA')
