@@ -3,8 +3,10 @@
 # Quantas letras ao todo (sem considerar espaços).
 # Quantas letras tem o primeiro nome
 
+import time
 nome = str(input("Digite o seu nome completo: ")).strip()
 print("Analisando seu nome...")
+time.sleep(4)
 print(f"Seu nome maiúsculas é {nome.upper()}")
 print(f"Seu nome menúculas é {nome.lower()}")
 print(f"Seu nome tem ao todo {len(nome) - nome.count(" ")}")
