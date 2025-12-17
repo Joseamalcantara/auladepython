@@ -2,6 +2,8 @@
 
 import pygame
 import time
+
+print("Musiquinha para alegrar")
 pygame.init()
 pygame.mixer.music.load('ex021.mp3')
 pygame.mixer.music.play()

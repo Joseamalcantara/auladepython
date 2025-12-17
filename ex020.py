@@ -1,6 +1,9 @@
-# O memso professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
+# O memso professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos.
+# Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
 
 from random import shuffle
+
+print("Sorteio da ordem da apresentação dos alunos")
 
 aluno1 = input("Digite o primeiro aluno: ")
 aluno2 = input("Digite o segundo aluno: ")

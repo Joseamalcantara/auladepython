@@ -6,4 +6,4 @@ desconto = preco - (preco * 0.05)
 msg = f"O valor do produto depois do desconto é de R$ {desconto:.2f}."
 linha = "-" * (len(msg) + 4)
 
-print(f"{linha}\n{msg.center(len(linha))}")
+print(f"{linha}\n{msg}")

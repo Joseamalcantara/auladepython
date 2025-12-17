@@ -5,4 +5,7 @@ print(msg)
 num = int(input("Digite um número: "))
 antecessor = num - 1
 sucessor = num + 2
-print(f"O antecessor e o sucessor de {num}, respectivamente é {antecessor} e {sucessor} ")
+msg_r = f"O antecessor e o sucessor de {num}, respectivamente é {antecessor} e {sucessor} "
+linha = "-" * (len(msg_r) + 2)
+
+print(f"{linha}\n{msg_r}")

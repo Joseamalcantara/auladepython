@@ -6,6 +6,6 @@ msg_impar = f'O número {num} é ímpar!'
 
 
 if num % 2 == 0:
-    print(msg_par)
+    print(f"{"-" * (len(msg_par))}\n{msg_par}")
 else:
-    print(msg_impar)
+    print(f"{"-" * (len(msg_impar))}\n{msg_impar}")

@@ -7,8 +7,8 @@ import time
 nome = str(input("Digite o seu nome completo: ")).strip()
 print("Analisando seu nome...")
 time.sleep(4)
-print(f"Seu nome maiúsculas é {nome.upper()}")
-print(f"Seu nome menúculas é {nome.lower()}")
+print(f"Seu nome em letras maiúsculas é {nome.upper()}")
+print(f"Seu nome em letras menúculas é {nome.lower()}")
 print(f"Seu nome tem ao todo {len(nome) - nome.count(" ")}")
 print(f"Seu primeiro nome tem {nome.find(" ")}")
 

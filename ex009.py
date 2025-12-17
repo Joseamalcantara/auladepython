@@ -1,6 +1,9 @@
 # Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
 
+msg = "Vamos fazer a tabuada de multiplicação"
+linha = "-" * len(msg)
 valor = int(input("Digite o valor que deseja: "))
+print(linha)
 
 print(f"{valor} X 0 = {valor * 0}")
 print(f"{valor} X 1 = {valor * 1}")

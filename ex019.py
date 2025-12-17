@@ -1,6 +1,8 @@
-# Um professor quer sortear um dos seus quatro alunos para pagar o quadro. Faça um programa que ajude ele, lembrando o nome deles e escreva o nome escolhido.
+# Um professor quer sortear um dos seus quatro alunos para pagar o quadro. Faça um programa que ajude ele,
+# lembrando o nome deles e escreva o nome escolhido.
 
 from random import choice
+print("Sorteio de alunos para apagar o quadro!")
 aluno1 = input("O primeiro aluno: ")
 aluno2 = input("O segundo aluno: ")
 aluno3 = input("O terceiro aluno: ")

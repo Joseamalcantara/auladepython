@@ -2,7 +2,7 @@
 
 msg = """Coloque o valor em metros e vou mostra em
 km, hm, dam, dm, cm, mm."""
-
+linha = "-" * len(msg)
 metro = float(input("Digite o valor em metros: "))
 
 km = metro * 0.001
@@ -12,5 +12,5 @@ dm = metro * 10
 cm = metro * 100
 mm = metro * 1000
 
-print(f"Km: {km:.3f}\nhm: {hm:.2f}\ndam: {dam:.1f}\ndm: {dm:.0f}\nmm: {mm:.0f}")
+print(f"{linha}\nKm: {km:.3f}\nhm: {hm:.2f}\ndam: {dam:.1f}\ndm: {dm:.0f}\nmm: {mm:.0f}")
 

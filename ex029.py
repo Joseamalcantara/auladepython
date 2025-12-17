@@ -7,7 +7,8 @@ velocidade = float(input('Qual é a velocidade atual do carro? '))
 msg_multa = f'Você ultrapassou a velocidade máxima, sua multar é R$ {(velocidade - 80) * 7:.2f}'
 msg_despedida = 'Tenha um bom dia! Dirija com segurança!'
 linha = '-' * len(msg_multa)
+print(linha)
 
 if velocidade > 80:
-    print(f'{linha}\n{msg_multa}\n{linha}')
+    print(f'{msg_multa}\n{linha}')
 print(msg_despedida)
