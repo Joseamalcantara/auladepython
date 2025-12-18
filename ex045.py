@@ -1,15 +1,17 @@
 from random import randint
-print('Sua opção: ')
-print('[ 0 ] PEDRA')
-print('[ 1 ] PAPEL')
-print('[ 2 ] TESOURA')
+print("""Sua opção
+[ 0 ] PEDRA
+[ 1 ] PAPEL
+[ 2 ] TESOURA""")
+
 itens = ['Pedra', 'Papel', 'Tesoura']
+
 computador = randint(0, 2)
 jogador = int(input('Qual a sua escolha: '))
-print('-='*20)
-print(f'O COMPUTADOR ESCOLHEU {itens[computador]}')
-print(f'O JOGADOR ESCOLHEU {itens[jogador]}')
-print('-='*20)
+linha = '-='*20
+
+print(f'{linha}\nO COMPUTADOR ESCOLHEU {itens[computador]}\nO JOGADOR ESCOLHEU {itens[jogador]}\n{linha}')
+
 if computador == 0:
     if jogador == 0:
         print('Empate')
